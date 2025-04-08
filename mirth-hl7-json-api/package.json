@@ -1,0 +1,16 @@
+{
+  "name": "patient-registration-api",
+  "version": "1.0.0",
+  "description": "API server for processing patient registration data from Mirth Connect",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.7.0"
+  }
+}
